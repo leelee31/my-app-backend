@@ -3,7 +3,7 @@ name: Deploy String boot to Amazon EC2
 on:
   push:
   branches:
-      - main
+      - master
 
 env:
   PROJECT_NAME: my-app-backend
