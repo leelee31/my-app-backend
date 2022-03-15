@@ -1,9 +1,9 @@
-name: Deploy String boot to Amazon EC2
-
 on:
   push:
-  branches:
+    branches:
       - master
+
+name: Deploy String boot to Amazon EC2
 
 env:
   PROJECT_NAME: my-app-backend
