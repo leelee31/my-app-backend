@@ -1,0 +1,12 @@
+spring:
+  profiles:
+    group:
+      dev: "localdb, common"
+      prod: "proddb, common"
+---
+spring:
+  config:
+    activate:
+     on-profile: common
+mybatis:
+  mapper-locations: "classpath:mapper/*.xml"
