@@ -39,11 +39,11 @@ tmp/
 *.bak
 *.swp
 *~.nib
-local.properties
 .settings/
 .loadpath
 .recommenders
 HELP.md
+application-localdb.yml
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
