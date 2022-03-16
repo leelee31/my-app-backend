@@ -19,7 +19,6 @@ else
 fi
 
 echo "> $JAR_PATH 배포"
-echo "> $CLASSPATH classpath 확인"
 
 nohup java -jar \
   -Dspring.config.location=classpath:/application.yml \
