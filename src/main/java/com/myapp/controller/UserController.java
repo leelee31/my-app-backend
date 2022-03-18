@@ -26,7 +26,7 @@ public class UserController {
 	
 	@GetMapping
 	public List<User> userList() {
-		System.out.println("================유저리스트 출력 성공");
+		System.out.println("================유저리스트 출력 성공 ");
 		return userMapper.userList();
 	}
 	
